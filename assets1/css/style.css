@@ -1,0 +1,346 @@
+/* Home Style */
+
+.hero-section {
+    margin-top: 10px;
+    width: 100%;
+    height: 100vh;
+    background: url('../img/bg-hero.png') no-repeat center center;
+    background-size: cover;
+    text-align: center;
+}
+
+.hero-section>.btn-daftar {
+    margin-top: 500px !important;
+    border: none;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #2980B9;
+    width: 30%;
+    font-size: 2em;
+}
+
+.hero-section>.btn-daftar:hover {
+    background-color: #2980B9;
+    color: #fff;
+}
+
+.feature-section {
+    padding: 50px 10px;
+}
+
+.clip {
+    -webkit-clip-path: polygon(45% 0, 50% 2%, 55% 0, 100% 0, 100% 100%, 0 100%, 0 0);
+    clip-path: polygon(45% 0, 50% 2%, 55% 0, 100% 0, 100% 100%, 0 100%, 0 0);
+}
+
+.step-section {
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+}
+
+.step-section .row-step {
+    margin: 20px auto;
+}
+
+.step-section .step-number {
+    text-align: center;
+    font-size: 10.7em;
+}
+
+.cta {
+    padding: 30px 20px;
+}
+
+.cta .btn-alur {
+    margin-top: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #00C33B;
+    width: 30%;
+    font-size: 2em;
+}
+
+.cta .btn-alur:hover {
+    background-color: #2980B9;
+    color: #fff;
+}
+
+
+/* End Home Style */
+
+
+/* About Style */
+
+.about-section {
+    padding: 20px;
+    margin-top: 80px;
+    font-size: 1.3em;
+}
+
+
+/* End About Style */
+
+
+/* Notify Style */
+
+.notify-section {
+    padding: 20px;
+    margin-top: 80px;
+    font-size: 1.3em;
+}
+
+.profile-card {
+    background-color: #fff;
+    margin-bottom: 20px;
+    width: 80%;
+    margin: auto;
+    border: 1px solid #eee;
+    -webkit-box-shadow: 1px 1px 6px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 1px 6px 5px rgba(0, 0, 0, 0.2);
+}
+
+.profile-pic {
+    border-radius: 50%;
+    position: absolute;
+    top: -65px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 1;
+    max-width: 100px;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.profile-info {
+    color: #222;
+    padding: 25px;
+    position: relative;
+    margin-top: 15px;
+}
+
+.profile-info h2 {
+    color: #222;
+    letter-spacing: 4px;
+    padding-bottom: 12px;
+}
+
+.profile-info span {
+    display: block;
+    font-size: 12px;
+    color: #4CB493;
+    letter-spacing: 2px;
+}
+
+.profile-info a {
+    color: #4CB493;
+}
+
+.profile-info i {
+    padding: 15px 35px 0px 35px;
+}
+
+.indent {
+    text-indent: 20px;
+}
+
+.profile-card:hover .profile-pic {
+    transform: scale(1.1);
+}
+
+.profile-card:hover .profile-info hr {
+    opacity: 1;
+}
+
+
+/* Underline From Center */
+
+.hvr-underline-from-center {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    overflow: hidden;
+}
+
+.hvr-underline-from-center:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 52%;
+    right: 52%;
+    bottom: 0;
+    background: #FFFFFF;
+    border-radius: 50%;
+    height: 3px;
+    -webkit-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.profile-card:hover .hvr-underline-from-center:before,
+.profile-card:focus .hvr-underline-from-center:before,
+.profile-card:active .hvr-underline-from-center:before {
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: #CECECE;
+}
+
+
+/* End Notify Style */
+
+
+/* Contact Style */
+
+
+/* USER PROFILE PAGE */
+
+.card {
+    margin-top: 20px;
+    padding: 30px;
+    background-color: rgba(214, 224, 226, 0.2);
+    -webkit-border-top-left-radius: 5px;
+    -moz-border-top-left-radius: 5px;
+    border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-top-right-radius: 5px;
+    border-top-right-radius: 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.card.hovercard {
+    position: relative;
+    padding-top: 0;
+    overflow: hidden;
+    text-align: center;
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.card.hovercard .card-background {
+    height: 130px;
+}
+
+.card-background img {
+    -webkit-filter: blur(25px);
+    -moz-filter: blur(25px);
+    -o-filter: blur(25px);
+    -ms-filter: blur(25px);
+    filter: blur(25px);
+    margin-left: -100px;
+    margin-top: -200px;
+    min-width: 130%;
+}
+
+.card.hovercard .useravatar {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    right: 0;
+}
+
+.card.hovercard .useravatar img {
+    width: 100px;
+    height: 100px;
+    max-width: 100px;
+    max-height: 100px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 5px solid rgba(255, 255, 255, 0.5);
+}
+
+.card.hovercard .card-info {
+    position: absolute;
+    bottom: 14px;
+    left: 0;
+    right: 0;
+}
+
+.card.hovercard .card-info .card-title {
+    padding: 0 5px;
+    font-size: 20px;
+    line-height: 1;
+    color: #262626;
+    background-color: rgba(255, 255, 255, 0.1);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.card.hovercard .card-info {
+    overflow: hidden;
+    font-size: 12px;
+    line-height: 20px;
+    color: #737373;
+    text-overflow: ellipsis;
+}
+
+.card.hovercard .bottom {
+    padding: 0 20px;
+    margin-bottom: 17px;
+}
+
+.btn-pref .btn {
+    -webkit-border-radius: 0 !important;
+}
+
+
+/* End Contact Style */
+
+.navbar-default {
+    background-color: #2980b9;
+    border-color: #2980b9;
+    -webkit-box-shadow: 1px 1px 6px 6px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 1px 6px 6px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #34495e;
+    background-color: none;
+}
+
+@media (min-width: 768px) {
+    .navbar-collapse .navbar-nav.navbar-right:last-child {
+        margin-right: -15px !important;
+        margin-top: 12px !important;
+        margin-bottom: 10px !important;
+    }
+    .navbar>.container .navbar-brand,
+    .navbar>.container-fluid .navbar-brand {
+        margin-left: -15px;
+        margin-top: -13px;
+    }
+}
+
+footer {
+    background-color: #2980b9;
+    color: #fff;
+    padding: 50px 30px;
+}
+
+footer .footer-container {
+    width: 80%;
+    margin: auto;
+}
+
+footer .footer-container address {
+    font-style: italic;
+}
